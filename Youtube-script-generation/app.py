@@ -16,7 +16,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper 
 from langchain.chat_models import ChatOpenAI
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "your api key"
 
 # Streamlet App framework
 st.title('🦜🔗 YouTube Script Assistant') # setting teh title 
